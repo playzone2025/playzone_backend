@@ -8,6 +8,8 @@ const eventRoutes = require('./routes/eventRoutes');
 dotenv.config();
 const app = express();
 
+console.log("Push");
+
 app.use(cors({
   origin: '*',
   credentials: true
